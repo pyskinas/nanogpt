@@ -1,4 +1,5 @@
 # nanogpt
-My implementation of OpenAI’s GPT 2 124M (following Karpathy's guidance). Trained on 8 A100 80GB GPUs on Lambda. Better performance than OpenAI’s version.
+Reimplemented OpenAIs GPT-2 (124M) architecture and pretrained it on 10B tokens from the fineweb-edu dataset. Trained it on
+8x A100 GPUs on the Lambda Cloud. Matched performance with GPT-2 (124M) on the HellaSwag benchmark (30%).
 
 ![Meant to be a loss graph, and hellaswag eval](https://github.com/pyskinas/nanogpt/blob/main/loss.png)
